@@ -1,7 +1,7 @@
-streamlit
 opencv-python-headless
-easyocr
+streamlit
 numpy
 pandas
-ultralytics
 Pillow
+ultralytics
+easyocr
