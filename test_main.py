@@ -80,7 +80,7 @@ st.markdown("""
 # 3. Logic tải mô hình nhận diện (Giữ nguyên)
 @st.cache_resource
 def load_models():
-    model = YOLO("runs/detect/train/weights/best.pt")
+    model = YOLO("best.pt")
     reader = easyocr.Reader(['vi', 'en'])
     return model, reader
 
