@@ -1,3 +1,6 @@
+import sys
+# Ép hệ thống nhận diện cấu hình headless trước khi các thư viện khác kịp import cv2
+sys.modules['cv2'] = __import__('cv2')
 import streamlit as st
 import cv2
 import easyocr
